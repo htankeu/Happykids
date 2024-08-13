@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Tytoon;
+  src: url(./assets/fonts/Tytoon-Mist.ttf);
+}
+
+@font-face {
+  font-family: neuropol;
+  src: url(./assets/fonts/neuropol-x-rg.otf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: neuropol;
+}
